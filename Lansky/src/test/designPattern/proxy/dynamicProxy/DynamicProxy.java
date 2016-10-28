@@ -6,7 +6,9 @@ import java.lang.reflect.Proxy;
 
 import test.designPattern.proxy.staticProxy.protectedProxy.Order;
 import test.designPattern.proxy.staticProxy.protectedProxy.OrderApi;
-
+/*
+* @author Lansky
+*/
 public class DynamicProxy implements InvocationHandler {
 	
 	private Order order = null;
