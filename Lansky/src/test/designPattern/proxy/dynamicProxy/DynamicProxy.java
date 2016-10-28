@@ -36,7 +36,11 @@ public class DynamicProxy implements InvocationHandler {
 
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] objs) throws Throwable {
-		
+		//权限控制
+		if (method.getName().startsWith("set") && objs[1] != null && !objs[1].equals(order.getUsername())) {
+			System.out.println(objs[0] + "没有修改订单的权限");
+			return null;
+		}
 		return method.invoke(order, objs);
 	}
 

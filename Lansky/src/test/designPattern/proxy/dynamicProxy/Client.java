@@ -18,5 +18,6 @@ public class Client {
 		/*OrderApi proxyOrder = (OrderApi) Proxy.newProxyInstance(OrderApi.class.getClassLoader(), new Class[]{OrderApi.class}, new DynamicProxy(order));*/
 		OrderApi proxy2 = new DynamicProxy().getProxyInterface(OrderApi.class, order);
 		System.out.println(proxy2.getUsername());
+		proxy2.setAmount("hanhaichengjiang", "321");
 	}
 }
