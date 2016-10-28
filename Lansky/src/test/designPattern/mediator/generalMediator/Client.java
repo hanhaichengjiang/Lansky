@@ -1,5 +1,12 @@
 package test.designPattern.mediator.generalMediator;
 
+/** 
+ * @ClassName: Client 
+ * @Description: Genneral Mediator
+ * @author Lansky
+ * @date 2016年10月28日 上午9:48:01 
+ *  
+ */
 public class Client {
 	public static void main(String[] args) {
 		User user1 = new User();
