@@ -1,4 +1,4 @@
-package test.designPattern.proxy.virtualProxy;
+package test.designPattern.proxy.staticProxy.virtualProxy;
 
 public class Dept {
 	private String deptId;

@@ -1,4 +1,4 @@
-package test.designPattern.proxy.virtualProxy;
+package test.designPattern.proxy.staticProxy.virtualProxy;
 
 public interface UserInterface {
 	public String getUserId();

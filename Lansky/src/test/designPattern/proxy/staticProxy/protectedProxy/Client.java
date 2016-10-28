@@ -1,4 +1,4 @@
-package test.designPattern.proxy.protectedProxy;
+package test.designPattern.proxy.staticProxy.protectedProxy;
 
 import java.util.List;
 

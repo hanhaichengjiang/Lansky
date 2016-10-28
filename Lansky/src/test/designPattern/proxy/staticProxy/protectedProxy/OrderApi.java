@@ -1,4 +1,4 @@
-package test.designPattern.proxy.protectedProxy;
+package test.designPattern.proxy.staticProxy.protectedProxy;
 
 public interface OrderApi {
 	public String getOrderId();

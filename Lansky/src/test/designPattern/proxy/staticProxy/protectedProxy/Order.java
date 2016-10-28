@@ -1,4 +1,4 @@
-package test.designPattern.proxy.protectedProxy;
+package test.designPattern.proxy.staticProxy.protectedProxy;
 
 public class Order implements OrderApi {
 	private String orderId;
@@ -28,6 +28,9 @@ public class Order implements OrderApi {
 	}
 	public void setUsername(String username) {
 		this.username = username;
+	}
+	public void myMethod(String argument){
+		System.out.println(argument);
 	}
 	
 }
