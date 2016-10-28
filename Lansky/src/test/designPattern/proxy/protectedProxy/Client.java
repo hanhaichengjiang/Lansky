@@ -2,6 +2,13 @@ package test.designPattern.proxy.protectedProxy;
 
 import java.util.List;
 
+/** 
+ * @ClassName: Client 
+ * @Description: protected proxy
+ * @author Lansky
+ * @date 2016年10月28日 下午2:49:51 
+ *  
+ */
 public class Client {
 	public static void main(String[] args) {
 		OrderManager manager = new OrderManager();
