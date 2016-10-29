@@ -24,6 +24,7 @@ public class Client {
 		newsPaper.addObserver(reader1);
 		newsPaper.addObserver(reader2);
 		newsPaper.addObserver(reader3);
+		newsPaper.deleteObserver(reader2);
 		
 		newsPaper.setConetent("设置新闻内容，相当于报社出版新报纸，看看是否有通知预订的读者呢。");
 	}
