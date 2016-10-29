@@ -1,4 +1,4 @@
-package test.designPattern.observer;
+package test.designPattern.observer.pull;
 
 import java.util.ArrayList;
 import java.util.List;

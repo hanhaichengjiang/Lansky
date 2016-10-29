@@ -1,5 +1,13 @@
-package test.designPattern.observer;
+package test.designPattern.observer.push;
 
+/** 
+ * @ClassName: Client 
+ * @Description: 观察者模式可分两种方式：一种推送方式(push)，一种是拉方式(pull)
+ * 				区别主要是在update方法的传参，还有通知观察者的时候的传参
+ * @author Lansky
+ * @date 2016年10月29日 上午9:40:11 
+ *  
+ */
 public class Client {
 	public static void main(String[] args) {
 		Reader reader1 = new Reader();
