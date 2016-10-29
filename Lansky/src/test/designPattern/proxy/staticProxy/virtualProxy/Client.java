@@ -4,7 +4,7 @@ import java.util.List;
 
 /** 
  * @ClassName: Client 
- * @Description: 虚拟代理
+ * @Description: 虚拟代理(代理模式应用于 如果某个类太吃内存，可以获取代理类，减少内存占用率)
  * @author Lansky
  * @date 2016年10月28日 下午12:13:55 
  *  

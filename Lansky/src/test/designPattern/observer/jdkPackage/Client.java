@@ -5,7 +5,7 @@ package test.designPattern.observer.jdkPackage;
  * @Description: 利用java jdk自带的观察者类
  * 					Subject具体对象去继承java.util.Obserable类
  * 					观察者类则实现java.util.Observer接口
- * @author Nick
+ * @author Lansky
  * @date 2016年10月29日 上午10:07:31 
  *  
  */
