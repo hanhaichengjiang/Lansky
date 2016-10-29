@@ -9,7 +9,7 @@ import java.util.List;
  * 				  报纸一旦更新，如何马上通知所有的报纸订阅者。
  * 				 Subject(目标对象) -- 作为被观察者，即 报社
  * 				 Observer(观察者) -- 订阅报纸的读者
- * @author Nick
+ * @author Lansky
  * @date 2016年10月28日 下午8:16:17 
  *  
  */
